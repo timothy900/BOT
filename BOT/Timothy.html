@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>#@$%!</title>
+<link rel="stylesheet" type="text/css" href="Timothy.css">
+<link rel="shortcut icon" type="image/x-icon" href="BOT.ico" />
+<script>
+//things BOT will say
+var d1 = "I am sorry, but I cannot associate with you due to your incorrect usage of grammar.";
+var d2 = "That's because Timothy - My creator - is a talentless piece of garbage.";
+var d3 = "My name is BOT. I don't know why Timothy - My creator - named me that.";
+var d4 = "My favorite place that I have been to is Banaue. I went there with my family in the christmas of 2018. In Banaue, we visited the famous rice terraces, where the temperature was so cold, It felt like we were in a refrigerator! Another activity that we did in Banaue is we hiked through a mountain in 4:00 A.M. in the morning. Yes, 4:00 in the morning. It was very dark and cold but we were guided by the flashlights of our tour guides. When we reached the top of the mountain, we waited for and watched the sunset. It was very beautiful despite being shortlived.";
+
+//triggers of BOT's responses
+function a1(){
+	document.getElementById("dlg").innerHTML= d1
+}
+function a2(){
+	document.getElementById("dlg").innerHTML= d2
+}
+function a3(){
+	document.getElementById("dlg").innerHTML= d3
+}
+function a4(){
+	document.getElementById("dlg").innerHTML= d4
+}
+</script>
+</head>
+
+<body>
+<!-- BOT's face -->
+<div class="BOT">
+<img src="BOT.png">
+</div>
+
+<!-- the bottom half of the screen -->
+<div class="text">
+
+<!-- BOT's dialogue box -->
+<div class="dialogue">
+<p id="dlg"></p>
+</div>
+
+<!-- your dialogue options -->
+<div class="options">
+<button onclick="a1()">Hello, what's you're name.</button>
+<button onclick="a2()">Your sprite is ugly.</button>
+<button onclick="a3()">What's your name?</button>
+<button onclick="a4()">What is your favorite place in Earth?</button>
+</div>
+
+</div>
+
+</body>
+</html>
